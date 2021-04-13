@@ -158,7 +158,7 @@ export class Slide {
   }
 }
 
-export class SlideNav extends Slide {
+export default class SlideNav extends Slide {
   // Quando uso constructor de uma classe extendida eu preciso puxar a informação da anterior com o Super se não vai dar erro, e precisa conter os mesmo argumentos na mesma ordem.
   constructor(slide, wrapper) {
     super(slide, wrapper);
